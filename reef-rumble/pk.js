@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* PK3 — shared Playables runtime (batch 3, forked from pk2): SDK glue, canvas, input, audio, fx, meta-progression,
    ads at natural breaks only (interstitials >= 30 s apart, revive once per stage, 2x coins, opt-in pre-match boost).
    natural transition points only. Plain readable JS (no obfuscation). */
@@ -102,7 +101,7 @@ const PK = (() => {
     const key = 'glow' + color + size; if (texCache[key]) return texCache[key];
     const c = makeCanvas(size, size), g = c.getContext('2d');
     const gr = g.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2);
-    gr.addColorStop(0, color); gr.addColorStop(.25, color.replace(/[\d.]+\)$/, '0.55)')); gr.addColorStop(1, color.replace(/[\d.]+\)$/, '0)'));
+    gr.addColorStop(0, color); gr.addColorStop(.25, color.replace(/[\d.eE+-]+\)$/, '0.55)')); gr.addColorStop(1, color.replace(/[\d.eE+-]+\)$/, '0)')); // alpha may be in exponent form (e.g. 9e-5)
     g.fillStyle = gr; g.fillRect(0, 0, size, size); texCache[key] = c; return c;
   }
   function glow(g, x, y, r, color) { const s = glowSprite(color); g.drawImage(s, x - r, y - r, r * 2, r * 2); }

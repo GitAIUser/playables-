@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* Chalkbait: a hedgehog crosses the city at night along a fixed route. You can't build walls. Instead you DRAW chalk lures
    that pull the pests away: the fox follows bug trails, the crow chases shiny circles, the dog chases cat doodles.
    Press GO and everyone moves at once (deterministic tick sim). A distracted pest only bumps; an alert pest pounces if the

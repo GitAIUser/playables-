@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* @libs arena */
 // Puck Rivals — neon air hockey. First to 5 goals. Face a rival, or share the screen with a friend.
 // Revision: table sized to the screen, baked table layer (no per-frame glow), one-use goal shield (110), Side Slow perk, table items, AI stall fix + air jets.

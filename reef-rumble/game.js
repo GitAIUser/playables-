@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* @libs arena */
 // Reef Rumble — a coral reef feeding frenzy. Gulp smaller fish, evolve through five forms, dodge the big ones.
 (() => {

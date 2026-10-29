@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* Off the Panel: every level is a comic strip, and you solve it by editing the comic itself. Only comic elements move:
    sound effects, emanata (ZZZ, hearts, idea bulbs, sweat drops), thought bubbles, panel gutters and captions.
    Consistent rules: each symbol does what it means. ZZZ puts things to sleep, BOOM blasts, SPLASH soaks, ♥ calms...

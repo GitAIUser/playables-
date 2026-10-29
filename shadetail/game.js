@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* Shadetail: an ink-wash tanuki spirit can only stretch its tail through SHADOW. Paper lanterns, moonlight and drifting
    clouds decide where shadow falls. Tug a lantern cord with the tail tip to flip that lantern set; clouds drift only while
    your tail is home (holding the tail freezes the sky), so timing is planning, never reflex.

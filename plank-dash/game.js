@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* @libs arena */
 // Plank Dash — 4 teams of 2. Scoop up planks in your team colour, lay a bridge step by step, climb three floors before the other teams. Bump smaller stacks to scatter them.
 // Revision: 8 players (you + a bot buddy vs 3 bot teams), team bridges, AI that walks back down to restock / rebuild, bridge-entrance pathing + stuck recovery, items, cheap floor drawing.

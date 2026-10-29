@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* PK4: shared YouTube Playables runtime for batch 4 (level-based puzzle games). Plain readable JS.
    Covers SDK glue, canvas/DPR, board fitting, fixed-step loop, input (with a lead cursor ahead of the finger for touch),
    WebAudio synth that follows YouTube's audio setting, and save/load through the SDK (loadData awaited before any save).

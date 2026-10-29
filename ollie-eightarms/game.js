@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* Ollie Eightarms: an octopus cat-burglar uses SEVERAL arms at once. Each arm you draw stays where you leave it and keeps
    doing its job: lying on a plate holds a door open, lying on a switch kills a laser. Arms can't cross each other, so
    the order and route of every arm matters. Tap an arm to pull it back (whatever it held lets go!).

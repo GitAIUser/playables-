@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* @libs arena */
 // Tallyworm — glossy number-worms in a huge garden arena. Eat glow-seeds to grow your tally; the bigger tally wins every clash. Grab power-ups, topple the boss.
 (() => {

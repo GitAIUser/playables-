@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* Longsnack: a baby brachiosaur stretches its solid clay neck through a museum after hours to snack on exhibits.
    The neck is a body, not just a path: lying across a red plate holds a gate open. Motion-sensor beams flip every few
    steps your nose takes (time only moves when you move). Claymation look: thumbprint texture, 8 fps "boil", squash and stretch. */

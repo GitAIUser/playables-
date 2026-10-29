@@ -1,4 +1,3 @@
-/* © 2026 Randomness. All rights reserved. Unauthorized copying or redistribution is prohibited. */
 /* @libs arena */
 // Frostline Rush — downhill ski race against 5 rival skiers: thread the gates, launch off kickers and spin tricks for boost, dodge pines.
 (() => {
