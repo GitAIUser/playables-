@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Randomness Games</title>
+<meta name="description" content="Ten original HTML5 games from Randomness.">
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #09080f;
+    --ink: #f4f1ea;
+    --muted: #a39cab;
+    --line: rgba(255, 255, 255, 0.08);
+    --card: #14131c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    min-height: 100vh;
+    font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(1200px 500px at 10% -10%, rgba(255, 196, 120, 0.16), transparent 55%),
+      radial-gradient(900px 480px at 100% 0%, rgba(110, 180, 255, 0.12), transparent 50%),
+      var(--bg);
+  }
+  a { color: inherit; }
+  .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+  header { padding: 56px 0 28px; }
+  .kicker {
+    margin: 0 0 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #e7c27a;
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(40px, 6vw, 68px);
+    line-height: 0.95;
+    font-weight: 720;
+    letter-spacing: -0.04em;
+  }
+  .lede {
+    max-width: 38rem;
+    margin: 16px 0 0;
+    color: var(--muted);
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+    padding-bottom: 48px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    text-decoration: none;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    transition: transform 160ms ease, border-color 160ms ease;
+  }
+  .card:hover, .card:focus-visible {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--accent) 70%, white);
+    outline: none;
+  }
+  .shot {
+    aspect-ratio: 4 / 5;
+    background: #05040a;
+    overflow: hidden;
+  }
+  .shot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 18%;
+    display: block;
+  }
+  .meta { padding: 14px 14px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  h2 { margin: 0; font-size: 18px; letter-spacing: -0.02em; }
+  .meta p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.4; flex: 1; }
+  .play {
+    margin-top: 8px;
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 650;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 22px 0 32px;
+    color: #7e7888;
+    font-size: 13px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: none; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="kicker">Studio</p>
+      <h1>Randomness Games</h1>
+      <p class="lede">Ten small HTML5 games. Pick a card and play in the browser.</p>
+    </header>
+    <main class="grid">
+      <a class="card" style="--accent:#b6ff6a" href="./tallyworm/">
+        <div class="shot"><img src="./shots/tallyworm.png" alt="Tallyworm gameplay"></div>
+        <div class="meta">
+          <h2>Tallyworm</h2>
+          <p>Eat. Grow. Out-tally everyone.</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#6affd2" href="./puck-rivals/">
+        <div class="shot"><img src="./shots/puck-rivals.png" alt="Puck Rivals gameplay"></div>
+        <div class="meta">
+          <h2>Puck Rivals</h2>
+          <p>Neon air hockey. First to five.</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#bfe9ff" href="./frostline-rush/">
+        <div class="shot"><img src="./shots/frostline-rush.png" alt="Frostline Rush gameplay"></div>
+        <div class="meta">
+          <h2>Frostline Rush</h2>
+          <p>Gates. Kickers. Spins. First to the lodge.</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#7fe9ff" href="./reef-rumble/">
+        <div class="shot"><img src="./shots/reef-rumble.png" alt="Reef Rumble gameplay"></div>
+        <div class="meta">
+          <h2>Reef Rumble</h2>
+          <p>Eat smaller. Evolve. Rule the reef.</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#ffd36a" href="./plank-dash/">
+        <div class="shot"><img src="./shots/plank-dash.png" alt="Plank Dash gameplay"></div>
+        <div class="meta">
+          <h2>Plank Dash</h2>
+          <p>Team up. Stack. Bridge. Climb.</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#ffc76b" href="./longsnack/">
+        <div class="shot"><img src="./shots/longsnack.png" alt="Longsnack gameplay"></div>
+        <div class="meta">
+          <h2>Longsnack</h2>
+          <p>Stretch a clay dino neck through the museum. Snack time!</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#e07078" href="./shadetail/">
+        <div class="shot"><img src="./shots/shadetail.png" alt="Shadetail gameplay"></div>
+        <div class="meta">
+          <h2>Shadetail</h2>
+          <p>A tanuki spirit stretches its tail through shadow. Shape the dark, then reach!</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#ff7a6b" href="./ollie-eightarms/">
+        <div class="shot"><img src="./shots/ollie-eightarms.png" alt="Ollie Eightarms gameplay"></div>
+        <div class="meta">
+          <h2>Ollie Eightarms</h2>
+          <p>An octopus burglar with arms to spare. Hold, block, grab!</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#ffd34d" href="./off-the-panel/">
+        <div class="shot"><img src="./shots/off-the-panel.png" alt="Off the Panel gameplay"></div>
+        <div class="meta">
+          <h2>Off the Panel</h2>
+          <p>Solve each comic strip by editing the comic itself!</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+      <a class="card" style="--accent:#ffe27a" href="./chalkbait/">
+        <div class="shot"><img src="./shots/chalkbait.png" alt="Chalkbait gameplay"></div>
+        <div class="meta">
+          <h2>Chalkbait</h2>
+          <p>Draw chalk distractions. Get the hedgehog home.</p>
+          <span class="play">Play</span>
+        </div>
+      </a>
+    </main>
+    <footer>© 2026 Randomness. All rights reserved.</footer>
+  </div>
+</body>
+</html>
