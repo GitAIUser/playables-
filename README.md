@@ -13,7 +13,7 @@ Ten original HTML5 games. Each game is served from its own folder at `/<slug>/`.
 | Plank Dash | [plank-dash/](./plank-dash/) | Team up. Stack. Bridge. Climb. |
 | Longsnack | [longsnack/](./longsnack/) | Stretch a clay dino neck through the museum. Snack time! |
 | Shadetail | [shadetail/](./shadetail/) | A tanuki spirit stretches its tail through shadow. Shape the dark, then reach! |
-| Ollie Eightarms | [ollie-eightarms/](./ollie-eightarms/) | An octopus burglar with arms to spare. Hold, block, grab! |
+| Bumper Bloom | [bumper-bloom/](./bumper-bloom/) | Bounce, bump and bloom. Knock rivals out of the garden to win. |
 | Off the Panel | [off-the-panel/](./off-the-panel/) | Solve each comic strip by editing the comic itself! |
 | Chalkbait | [chalkbait/](./chalkbait/) | Draw chalk distractions. Get the hedgehog home. |
 
